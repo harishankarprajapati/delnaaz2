@@ -1,0 +1,391 @@
+@font-face {
+    font-family: 'Reey Regular';
+    src: url(../font/reey/Reey-Regular.otf);
+}
+
+body {
+    font-family: 'Open Sans';
+}
+
+.sec-bg-2 {
+    background-color: #333;
+    z-index: 10 !important;
+}
+
+.sec-logo {
+    width: 100%;
+    height: 70px;
+
+}
+
+.z-index-1 {
+    z-index: 2;
+}
+
+a.nav-link.text-light.font-weight-normal {
+    font-family: 'Open Sans';
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 14px;
+}
+
+.sec-bttn {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 19px;
+    text-transform: uppercase;
+    color: #B2943A;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.sec-bttn:hover {
+    color: #fff !important;
+    background-color: #B2943A !important;
+}
+
+.sec-bg-3 {
+    background-color: #292929;
+}
+
+.sec-f-tex {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 155px;
+    text-transform: uppercase;
+    text-align: right;
+    color: #D9D9D9;
+    margin: 0;
+    padding: 0;
+    z-index: 5 !important;
+    opacity: 0.06;
+}
+
+.sec-f-tex2 {
+    font-family: 'Reey Regular';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 84px;
+    line-height: 109px;
+    text-transform: capitalize;
+    padding-top: 8%;
+    color: #B2943A;
+
+}
+
+.sec-p {
+    padding-left: 20%;
+    width: 80%;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.sec-bttn2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    color: #B2943A;
+    text-transform: uppercase;
+    padding: 14px 40px;
+    margin-left: 50%;
+    margin-top: 4% !important;
+    background-color: #fff;
+    border-radius: 0;
+}
+
+.sec-bttn2:hover {
+    color: #fff !important;
+    background-color: #B2943A !important;
+}
+
+.sec-bttn3 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #B2943A;
+    border: 3px solid #B2943A;
+    padding: 13px 21px;
+    border-radius: 0;
+    float: right;
+}
+
+.sec-bttn3:hover {
+    color: #fff !important;
+    background-color: #B2943A !important;
+}
+
+.sec-bttn4 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 23px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #B2943A;
+    border: 3px solid #B2943A;
+    padding: 13px 21px;
+    border-radius: 0;
+    float: left;
+}
+
+.sec-bttn4:hover {
+    color: #fff !important;
+    background-color: #B2943A !important;
+}
+
+.sec-acad {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 138px;
+    line-height: 188px;
+    text-transform: uppercase;
+    color: #B3943A;
+    opacity: 0.3;
+}
+
+.sec-aca-bg {
+    background: #B3943A;
+}
+
+.sec-cil {
+    font-weight: 400;
+    font-size: 52.1219px;
+    line-height: 56px;
+}
+
+.sec-bttn5 {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13.0305px;
+    line-height: 18px;
+    text-transform: capitalize;
+    color: #B2943A;
+    background-color: #fff;
+    border-radius: 0;
+
+}
+
+.sec-bttn5:hover {
+    color: #fff !important;
+    border: 2px solid #fff !important;
+
+}
+
+.sec-aca-bg2 {
+    background-color: #fff;
+}
+
+.sec-acad2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 138px;
+    line-height: 188px;
+    text-transform: uppercase;
+    color: #B3943A;
+    opacity: 0.3;
+    text-align: right;
+    padding-top: 7%;
+}
+
+.sec-imh {
+    margin-top: -25%;
+}
+
+.sec-bg-5 {
+    background: #B2943A;
+    margin-left: -10%;
+    margin-top: 7%;
+}
+
+.sec-fran-p {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    line-height: 50px;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.sec-icon-p {
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 35px;
+    color: #FFFFFF;
+
+}
+
+/* serves */
+.ocer:hover .overlay {
+    opacity: 1;
+}
+
+.overlay {
+    position: absolute;
+    top: 0px;
+    bottom: 0;
+    left: 15px;
+    right: 0;
+    height: 98.2%;
+    width: 90%;
+    opacity: 0;
+    transition: .5s ease;
+    background: rgba(179, 148, 58, 0.68);
+}
+
+.icon-fr {
+    font-size: 14px;
+}
+
+.sec-p-hover {
+    font-size: 14px;
+}
+
+.sec-mak-h {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 138px;
+    line-height: 188px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #B3943A;
+    margin-top: 281%;
+    margin-left: 122%;
+    opacity: 0.3;
+    transform: rotate(-90deg);
+}
+
+.sec-mak-h2 {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 46px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    
+    margin-top: 243%;
+    transform: rotate(-90deg);
+}
+.sec-img-mak{
+    margin-top: -25%;
+}
+
+.fo-bg {
+    background-color: #181818;
+  }
+  
+  .foot hr {
+    width: 30%;
+    height: 3px;
+    margin-left: 0;
+    background-color: #B3943A;
+    opacity: inherit;
+  }
+  
+  .ft-icon {
+    color: #B3943A;
+  }
+  .sec-icon{
+    font-size: 22px;
+  }
+@media (max-width: 767px) {
+
+    .sec-img-2 {
+        width: 100%;
+    }
+
+    .sec-f-tex {
+        font-size: 50px;
+        text-align: center;
+        line-height: 51px;
+        margin-top: 0 !important;
+    }
+
+    .sec-f-tex2 {
+        font-size: 40px;
+        text-align: center;
+    }
+
+    .sec-p {
+        padding-left: 5px !important;
+        width: 100%;
+        font-size: 14px;
+        text-transform: capitalize;
+    }
+
+    .sec-bttn2 {
+        font-size: 13px;
+        padding: 8px 31px;
+        margin-left: 0%;
+    }
+    .sec-bttn3{
+        float: none;
+    }
+    .sec-acad{
+        font-size: 44px ;
+        line-height: 73px;
+    }
+    .sec-cil {
+        font-weight: 400;
+        font-size: 37.1219px;
+        line-height: 41px;
+    }
+    .sec-acad2{
+        font-size: 33px ;
+        line-height: 73px;
+    }
+    .sec-bg-5{
+        padding: 18px !important ;
+    }
+    .sec-fran-p {
+        font-size: 20px;
+        line-height: 28px;
+    }
+    .sec-icon-p {
+        font-size: 14px;
+        line-height: 21px;
+    }
+    .sec-bg-5{
+        margin-left: 0 !important;
+    }
+    .overlay {
+        height: 98.2%;
+        width: 87%;
+    }
+    .sec-p-hover {
+        font-size: 12px;
+    }
+    .sec-mak-h {
+        margin-top: 0  !important;
+        margin-left: 0 !important;
+        transform: none;
+        font-size: 50px;
+        line-height: 18px;
+    }
+    .sec-mak-h2 {
+        margin-top: 0  !important;
+        margin-left: 0 !important;
+        transform: none;
+        font-size: 20px;
+    line-height: 73px;
+    }
+    .sec-img-mak {
+        margin-top: 0  !important;
+    }
+}
